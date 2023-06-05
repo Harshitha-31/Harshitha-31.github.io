@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>user card1</title>
-    <link rel="stylesheet" href="usercard.css">
+    <link rel="stylesheet" href="usercard2.css">
 </head>
 <body>
     <div class="container">
         <h2>User Card1</h2>
-    <dv class="card">
-        <img class="cardimg" src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg">
+    <div class="card">
+        <img class="cardimg" id="dhoni-img" src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg">
         <div class="cardbody">
-            <h4>Mahendra Singh Dhoni</h4>
+            <h4 id="dhoni-name"></h4> Mahendra Singh Dhoni</h4>
             <p class="cardbody-designation">Captain of of Indian cricket team</p>
         </div>
     </div>
+    <button onclick="flipdata()">Click Here</button>
     </div>
+    <script src="usercard2.js">
+    </script>
 </body>
 </html>
