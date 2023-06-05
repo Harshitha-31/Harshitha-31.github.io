@@ -6,7 +6,7 @@ let dhonioldinfo={
 let dhoniyounginfo={
     imgurl: "https://img.mensxp.com/media/content/2021/Jun/5b990658b0abcb6de15be4b61d42d8c3_60d182271438b.jpeg",
     name: "Mahendra Singh Dhoni",
-    Description:"A Captain Cool player"
+    Description:"Addressed as Captain Cool"
 }
 let isdhoniold=true;
 let displayobject;
