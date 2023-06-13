@@ -5,7 +5,7 @@ let dhonioldinfo={
 }
 let displayobject={
     name:"",
-    imageurl:"",
+    imgurl:"",
     description:""
 };
 let getRandomUser =function(){
